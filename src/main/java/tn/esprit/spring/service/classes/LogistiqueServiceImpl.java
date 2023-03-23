@@ -45,7 +45,7 @@ public class LogistiqueServiceImpl implements ILogistiqueService {
 		List <Logistique> allLogists=new ArrayList<>();
 		for (Evenement e: events)
 		{
-			for(Logistique l: e.getLogistiques())
+			 for(Logistique l: e.getLogistiques())
 			{if (l.isReserve())
 			allLogists.add(l);
 		 }
